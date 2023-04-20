@@ -15,7 +15,7 @@ public class ListaDeContatos {
             System.out.println("0 - Sair");
 
             int opcao = scanner.nextInt();
-            scanner.nextLine();
+            scanner.nextLine(); // consumir a quebra
 
             switch (opcao) {
                 case 1:
